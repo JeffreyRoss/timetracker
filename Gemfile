@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.2.4'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
@@ -15,13 +14,16 @@ group :development, :test do
 	gem 'byebug'
 	gem 'guard'
 	gem 'guard-livereload'
+	gem 'test-unit'		
+	gem 'shoulda'
+	gem 'shoulda-context'
+	gem 'shoulda-matchers', require: false 	
 	gem 'guard-rspec'
-	gem 'rspec-rails', '~> 3.2.1'
+	gem 'rspec-rails'
 	gem 'factory_girl_rails'
 	gem 'capybara'
 	gem 'database_cleaner'	
 	gem 'ffaker'
-	gem 'shoulda-matchers' 
 	gem 'pry', '~> 0.10.1'	
 end
 
