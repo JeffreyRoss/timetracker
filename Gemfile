@@ -12,6 +12,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'devise', '~>3.5.1'
 gem 'apartment'
+gem 'simple_form'
 
 group :development, :test do
 	gem 'byebug'
