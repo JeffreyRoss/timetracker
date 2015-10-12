@@ -18,3 +18,5 @@ describe 'subdomains' do
 		expect(page).to have_content 'sign in or sign up before continuing'
 	end
 end
+
+

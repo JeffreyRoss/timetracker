@@ -33,6 +33,7 @@ RSpec.configure do |config|
     DatabaseCleaner.clean
     Apartment::Tenant.reset
     drop_schemas
+    Capybara.app_host = 'http://lvh.me:3000'
   end
 
   config.include Rails.application.routes.url_helpers  
